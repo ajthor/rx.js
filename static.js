@@ -21,7 +21,7 @@ var b = exports.b = function(args) {
 };
 
 var word = exports.word = function(args) {
-	return this._any((args ? ((args.get) ? args.get() : args) : "\\w+\\W+"));
+	return this._any((args ? ((args.get) ? args.get() : args) : "\\b\\S+\\b"));
 };
 
 var characters = exports.characters = function(args) {
