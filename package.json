@@ -1,5 +1,5 @@
 {
-  "name": "rx",
+  "name": "rxjs",
   "version": "0.0.1",
   "description": "Programmatically create regular expressions.",
   "main": "rx.js",
